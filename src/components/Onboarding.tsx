@@ -20,7 +20,7 @@ const Onboarding = () => {
 
     return (
       <div 
-        className="min-h-screen bg-white md:bg-custom-white w-full flex justify-center items-center"
+        className="min-h-screen bg-white md:bg-custom-white w-full flex justify-center items-center "
       >
         {currentStep === 'login' && <Login onLogin={handleLogin} />}
         {currentStep === 'verification' && <EmailVerification onVerify={handleVerification} />}
