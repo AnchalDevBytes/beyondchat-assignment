@@ -48,8 +48,8 @@ const WebpageStatus = () => {
 
   return (
     <div className="min-h-screen bg-white flex items-center p-4">
-      <div className="w-full flex flex-col gap-5 max-w-4xl mx-auto bg-custom-white rounded-2xl shadow-xl p-8">
-        <h1 className="text-3xl font-bold text-custom-blue font-montserrat">Website Scanning Status</h1>
+      <div className="w-full flex flex-col gap-5 max-w-4xl mx-auto bg-white md:bg-custom-white rounded-2xl md:shadow-xl md:p-8">
+        <h1 className="text-3xl font-bold pr-10 md:pr-0 font-montserrat text-custom-blue mb-4">Website Scanning Status</h1>
         
         <div className="space-y-4">
           {dummyData.map((page) => (

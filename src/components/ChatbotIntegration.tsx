@@ -16,7 +16,7 @@ export function ChatbotIntegration() {
     <div className="min-h-screen bg-white flex items-center">
       {showFeedback && <FeedbackBar onClose={() => setShowFeedback(false)} />}
 
-      <div className="w-full max-w-4xl mx-auto md:bg-custom-white rounded-2xl md:shadow-xl p-8 flex flex-col gap-5">
+      <div className="w-full max-w-4xl mx-auto md:bg-custom-white rounded-2xl md:shadow-xl p-4 md:p-8 flex flex-col gap-5">
         {currentStep === 'initial' && (
           <InitialStep 
             onTestChatbot={handleTestChatbot}

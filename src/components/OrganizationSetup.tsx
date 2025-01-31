@@ -21,8 +21,8 @@ const OrganizationSetup = () => {
 
   return (
     <div className="min-h-screen bg-white flex items-center justify-center p-4">
-      <div className="bg-custom-white rounded-2xl shadow-xl p-8 w-full max-w-2xl">
-        <h1 className="text-3xl font-bold text-custom-blue mb-6">Setup Organization</h1>
+      <div className="bg-white md:bg-custom-white rounded-2xl md:shadow-xl md:p-8 w-full max-w-2xl">
+        <h1 className="text-3xl font-bold pr-24 md:pr-0 font-montserrat text-custom-blue mb-6">Setup Organization</h1>
         
         <form onSubmit={handleSubmit} className="space-y-6">
           <IconInput 
